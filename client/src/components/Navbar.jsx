@@ -25,7 +25,7 @@ function Navbar() {
     localStorage.removeItem("userName");
 
     navigate("/login");
-    window.location.reload();
+    // window.location.reload();
   };
 
   if (location.pathname === "/") {
